@@ -16,7 +16,7 @@ function addDiv() {
     } 
   };
 function getRandomColor() { 
-    let arrColors = ["red", "white", "blue", "orange", "green"];
+    let arrColors = ["red", "white", "blue", "orange", "green", "purple", "black", "yellow"];
     console.log(Math.random(0, 4))
-    return arrColors[Math.floor(Math.random(0, 4) * 10)];
+    return arrColors[Math.floor(Math.random(0, 7) * 10)];
 }
